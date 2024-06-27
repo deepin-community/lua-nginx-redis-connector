@@ -1,5 +1,28 @@
-template-repository (1.0-1) unstable; urgency=medium
+lua-nginx-redis-connector (0.06-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
+  * Bump Standards-Version to 4.1.2.
+  * Update Vcs-* fields to salsa.debian.org.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 23 Dec 2017 17:07:25 +0800
+
+lua-nginx-redis-connector (0.04-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.0.0.
+  * Bump compat to 10.
+  * Update Vcs-* fields.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 23 Jul 2017 15:15:40 +0800
+
+lua-nginx-redis-connector (0.03-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 14 Dec 2015 22:41:39 +0800
+
+lua-nginx-redis-connector (0.02-1) unstable; urgency=low
+
+  * Initial release. Closes: #806838
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 02 Dec 2015 10:30:22 +0800
