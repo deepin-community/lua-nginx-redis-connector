@@ -1,15 +1,19 @@
-Source: template-repository
-Section: unknown
+Source: lua-nginx-redis-connector
+Maintainer: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Section: interpreters
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Build-Depends: debhelper (>= 10),
+               dh-lua,
+Standards-Version: 4.1.2
+Vcs-Browser: https://salsa.debian.org/debian/lua-nginx-redis-connector
+Vcs-Git: https://salsa.debian.org/debian/lua-nginx-redis-connector.git
+Homepage: https://github.com/pintsized/lua-resty-redis-connector
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: lua-nginx-redis-connector
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         lua-nginx-redis
+Description: Connection utilities for lua-nginx-redis
+ Connection utilities for lua-resty-redis, making it easy and reliable to
+ connect to Redis hosts, either directly or via Redis Sentinel.
